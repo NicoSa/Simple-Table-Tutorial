@@ -21,6 +21,7 @@
 		03D7DC95190BCECE00F170B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D7DC77190BCECE00F170B4 /* UIKit.framework */; };
 		03D7DC9D190BCECE00F170B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D7DC9B190BCECE00F170B4 /* InfoPlist.strings */; };
 		03D7DC9F190BCECE00F170B4 /* Simple_TableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DC9E190BCECE00F170B4 /* Simple_TableTests.m */; };
+		03DC86E3190BE40E00584564 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03DC86E2190BE40E00584564 /* creme_brelee.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		03D7DC9A190BCECE00F170B4 /* Simple TableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple TableTests-Info.plist"; sourceTree = "<group>"; };
 		03D7DC9C190BCECE00F170B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03D7DC9E190BCECE00F170B4 /* Simple_TableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_TableTests.m; sourceTree = "<group>"; };
+		03DC86E2190BE40E00584564 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		03D7DC79190BCECE00F170B4 /* Simple Table */ = {
 			isa = PBXGroup;
 			children = (
+				03DC86E2190BE40E00584564 /* creme_brelee.jpg */,
 				03D7DC82190BCECE00F170B4 /* SimpleTableAppDelegate.h */,
 				03D7DC83190BCECE00F170B4 /* SimpleTableAppDelegate.m */,
 				03D7DC85190BCECE00F170B4 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D7DC8C190BCECE00F170B4 /* Images.xcassets in Resources */,
+				03DC86E3190BE40E00584564 /* creme_brelee.jpg in Resources */,
 				03D7DC7E190BCECE00F170B4 /* InfoPlist.strings in Resources */,
 				03D7DC87190BCECE00F170B4 /* Main.storyboard in Resources */,
 			);
@@ -461,6 +465,7 @@
 				03D7DCA4190BCECE00F170B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03D7DCA5190BCECE00F170B4 /* Build configuration list for PBXNativeTarget "Simple TableTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				03D7DCA7190BCECE00F170B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
